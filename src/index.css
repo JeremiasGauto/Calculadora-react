@@ -1,10 +1,25 @@
 
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
 .cuerpo-calculadora{
   border: 2px solid black;
   width: 20rem;
   height: 40rem;
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0.5rem;
 
+}
+
+.boton-contenedor{
+  height: 100%;
+  width:100%
 }
